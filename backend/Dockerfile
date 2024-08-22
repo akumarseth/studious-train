@@ -22,7 +22,7 @@ COPY . /app/src/
 # Download and install the spaCy model
 RUN python -m spacy download en_core_web_sm
 
-RUN Ollama serve
+# RUN Ollama serve
 # Expose the port the app runs on
 EXPOSE 8000
 
